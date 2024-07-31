@@ -1,0 +1,42 @@
+/* Container for the table */
+.table-container {
+    margin: 20px auto; /* Center the table container with margin */
+    padding: 0 15px; /* Optional padding */
+  }
+  
+  /* Style the table */
+  .device-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin: 20px 0; /* Margin around the table */
+  }
+  
+  /* Style table headers */
+  .device-table th, .device-table td {
+    border: 1px solid #ddd; /* Border for table cells */
+    padding: 8px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Style table header */
+  .device-table th {
+    background-color: #f2f2f2; /* Light grey background */
+    font-weight: bold; /* Bold font */
+  }
+  
+  /* Optional: Style table rows on hover */
+  .device-table tr:hover {
+    background-color: #f5f5f5; /* Light grey background on hover */
+  }
+
+  /* Devices.css */
+.table-container {
+    margin-top: 20px; /* Adjust top margin if needed */
+  }
+  
+  h3 {
+    text-align: left; /* Align text to the left */
+    margin: 20px 0; /* Add some margin above and below the heading */
+  }
+  
+  
