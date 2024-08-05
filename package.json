@@ -1,5 +1,6 @@
 {
-  "name": "landingpage-react-template",
+  "name": "Entertainment QA Squad",
+  "homepage": "https://comcast-user.github.io/rdkv-entertainment-squad.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
