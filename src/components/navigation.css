@@ -1,0 +1,86 @@
+/* navigation.css */
+
+/* Container for the whole navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Ensure logo and nav items are on opposite sides */
+    align-items: center; /* Vertically center items */
+    padding: 0 20px; /* Add padding to ensure content doesn't touch the edges */
+    background-color: #fff; /* Ensure background color for better visibility */
+    height: 70px; /* Adjust based on design needs */
+  }
+  
+  /* Container for the logo and title */
+  .logo-container {
+    display: flex;
+    align-items: center; /* Align logo and title vertically */
+  }
+  
+  /* Logo image styling */
+  .logo-img {
+    height: 50px; /* Adjust based on your design */
+    margin-right: 10px; /* Space between logo and title */
+  }
+  
+  /* Styling for the title */
+  .logo-text {
+    font-size: 32px; /* Adjust size if needed */
+    color: #333; /* Adjust color if needed */
+    font-family: 'EB Garamond', serif;
+    margin: 0; /* Reset margin */
+    line-height: 1.2; /* Ensure proper spacing */
+  }
+  
+  /* Navbar items container */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center; /* Vertically align navigation items */
+    margin: 0; /* Reset margin */
+  }
+  
+  .navbar-nav > li {
+    margin-left: 10px; /* Reduced space between navigation items */
+  }
+  
+  /* Navbar item styling */
+  .navbar-nav > li > a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px; /* Adjust font size to fit better */
+    color: #333; /* Adjust color if needed */
+    text-transform: uppercase;
+    padding: 8px 12px; /* Reduced padding for tighter spacing */
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center; /* Center text vertically within the link */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a.active {
+    color: #007bff; /* Highlight color */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start; /* Align items to the left in mobile view */
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      width: 100%; /* Full width for mobile view */
+    }
+  
+    .navbar-nav > li {
+      margin: 5px 0; /* Adjust spacing for mobile view */
+    }
+  
+    .logo-container {
+      margin-bottom: 20px; /* Add space below the logo and title on mobile view */
+    }
+  }
+  

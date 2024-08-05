@@ -1,0 +1,65 @@
+/* Container for the section title */
+.section-title {
+  position: relative; /* Container is positioned relatively to enable absolute positioning of child elements */
+  padding: 20px; /* Adds padding around the container */
+  width: 100%; /* Ensures container spans full width */
+  box-sizing: border-box; /* Includes padding in the element’s total width and height */
+}
+
+/* Heading styling */
+.section-title h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px; /* Adjust size as needed */
+  font-weight: bold;
+  color: #000000; /* Black color */
+  margin: 0; /* Remove default margins */
+  text-shadow: none; /* Remove shadow if you prefer a cleaner look */
+  position: absolute; /* Position absolutely within the container */
+  top: 20px; /* Space from the top of the container (adjust as needed) */
+  left: -200px; /* Adjust as needed to position correctly within the container */
+}
+
+.section-title h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px; /* Adjust size as needed */
+  font-weight: bold;
+  color: #000000; /* Black color */
+  margin: 0; /* Remove default margins */
+  text-shadow: none; /* Remove shadow if you prefer a cleaner look */
+  position: absolute; /* Position absolutely within the container */
+  top: 260px; /* Space from the top of the container (adjust as needed) */
+  left: -200px; /* Adjust as needed to position correctly within the container */
+}
+/* Paragraph styling */
+.section-title p {
+  font-size: 1.75rem; /* Size of the font */
+  color: #444; /* Slightly lighter gray for text */
+  margin: 0 0 20px 0; /* Remove all margins to align the paragraph to the left corner */
+  line-height: 1.6; /* Improved readability by adjusting line height */
+  font-family: 'Calibri', 'Arial', sans-serif; /* Font family */
+  font-weight: 400; /* Normal weight for comfortable reading */
+  text-align: left; /* Align text to the left */
+  text-shadow: none; /* Remove shadow if you prefer a cleaner look */
+}
+
+/* List styling */
+.section-title ul {
+  padding-left: 20px; /* Space for bullets to start */
+  margin: 50px 0; /* Margin above and below the list */
+  list-style-type: disc; /* Bullet points style */
+  text-align: left; /* Align text to the left */
+}
+
+
+/* List item styling */
+.section-title li {
+  font-size: 1.75rem; /* Font size */
+  color: #444; /* Text color */
+  margin-bottom: 0px; /* Space between list items */
+  margin-top: 5px;
+  line-height: 1.4; /* Line height for readability */
+  font-family: 'Calibri', 'Arial', sans-serif; /* Font family */
+  font-weight: 400; /* Font weight */
+  text-shadow: none; /* Removes any text shadow */
+  margin-left: -180px; /* Moves list items 100px to the left */
+}
